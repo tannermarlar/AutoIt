@@ -1,0 +1,77 @@
+#include <AutoItConstants.au3>
+
+Local $j = 2
+Local $poop = "9:00 PM"
+Local $poop2 = "9:30 PM"
+Local $ServerMessage = "ServerMessage"
+Local $TheString = "8/9/2021 9:00 PM (tmar is life)"
+
+
+
+While(1)
+
+Send("{LWIN}+c")
+
+Sleep(2000)
+
+Send("ommand Prompt")
+
+Sleep(1000)
+
+Send("{ENTER}")
+
+Sleep(2500)
+
+MouseClick($MOUSE_CLICK_LEFT, 720, 500, 1)
+
+Sleep(1000)
+
+Send("start Documents/ConsoleApp3/ConsoleApp3.sln")
+
+Sleep(500)
+
+Send("{ENTER}")
+
+Sleep(10000)
+
+MouseClick($MOUSE_CLICK_LEFT, 720, 50, 1)
+;Send("{F5}")
+
+Sleep(23000)
+
+MouseClick($MOUSE_CLICK_LEFT, 1300, 700, 1)
+
+Sleep(1000)
+
+MouseClick($MOUSE_CLICK_LEFT, 874, 50, 1)
+;Send("{ShiftDown}+{F5}")
+
+Sleep(2000)
+
+MouseClick($MOUSE_CLICK_LEFT, 1510, 15, 1)
+
+Sleep(1000)
+
+MouseClick($MOUSE_CLICK_RIGHT, 925, 990, 1)
+
+Sleep(1000)
+
+MouseClick($MOUSE_CLICK_LEFT, 952, 930, 1)
+;Send("{Alt}+{F4}")
+
+Sleep(1000)
+
+MouseClick($MOUSE_CLICK_RIGHT, 925, 990, 1)
+
+Sleep(1000)
+
+MouseClick($MOUSE_CLICK_LEFT, 952, 930, 1)
+;Send("{Alt}+{F4}")
+
+Sleep(60000)
+
+
+WEnd
+
+
+#endregion --- Au3Recorder generated code End ---
